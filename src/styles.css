@@ -1,8 +1,8 @@
 body {
   font-family: sans-serif;
-  /* width: 600px;
+  width: 600px;
   margin-right: auto;
-  margin-left: auto; */
+  margin-left: auto;
   background-image: url(white_00013.jpg);
   background-size: cover;
 }
@@ -77,17 +77,3 @@ button:active {
   align-items: center;
   padding-bottom: 5px;
 }
-@media screen and (max-width: 768px) {
-  
-  .input-area {
-    width: 100%;
-    display: block;
-  }
-
-  .incomplete-area {
-    width: 100%;
-  }
-
-  .complete-area {
-    width: 100%;
-  }
