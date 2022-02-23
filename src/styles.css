@@ -1,25 +1,29 @@
 body {
   font-family: sans-serif;
-  width: 600px;
+  /* width: 600px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; */
   background-image: url(white_00013.jpg);
+  background-size: cover;
 }
+
 input {
   border-radius: 5px;
-  padding: 5px 15px;
-  border: none;
+  padding: 10px 20px;
+  border-width: thin;
   outline: none;
 }
 
 button {
   border-radius: 5px;
-  border: none;
-  padding: 3px 15px;
+  padding: 8px 15px;
+  margin: 10px 0;
+  background-color: white;
+  border-width: thin;
 }
 
 button:hover {
-  background-color: indigo;
+  background-color: rgb(0, 0, 0);
   color: white;
   cursor: pointer;
   box-shadow: 0 0 10px black;
@@ -30,37 +34,42 @@ button:active {
 }
 
 .input-area {
-  background-color: orange;
   width: 500px;
   text-align: center;
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  background-color: rgb(218, 214, 214);
 }
 
 .incomplete-area {
-  background-color: green;
   width: 500px;
-  min-height: 200px;
+  min-height: 250px;
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  background-color: rgb(218, 214, 214);
 }
 
 .complete-area {
-  background-color: hotpink;
   width: 500px;
-  min-height: 200px;
+  min-height: 250px;
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  background-color: rgb(218, 214, 214);
 }
 
 .title {
   text-align: center;
   margin-top: 0;
   font-weight: bold;
-  color: rgb(65, 59, 59);
 }
 
 .list-row {
@@ -68,3 +77,17 @@ button:active {
   align-items: center;
   padding-bottom: 5px;
 }
+@media screen and (max-width: 768px) {
+  
+  .input-area {
+    width: 100%;
+    display: block;
+  }
+
+  .incomplete-area {
+    width: 100%;
+  }
+
+  .complete-area {
+    width: 100%;
+  }
